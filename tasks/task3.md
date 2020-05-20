@@ -24,6 +24,7 @@ index.html 파일을 열고 게임을 직접 실행해 봅시다.
 ![sourceTree이미지](../resources/Mission3.PNG)
 
 문제 : 커밋 Message "a couple missing ends with the ipad version"의 game.js 파일에서 line 411 총알을 장전할때에 딜레이 초기화가 빠졌다.
+
 해결 : 소스가 수정되면서 line이 달라졌음, " if (KEY_STATUS.space) {"(game.js에서 유일한 값) 구문을 검색하여 "if (this.delayBeforeBullet <= 0) {" 밑에   this.delayBeforeBullet = 10; 값 추가 하여 해결 할 수 있다.
 
 ### 힌트
